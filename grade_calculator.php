@@ -39,14 +39,19 @@
             $average = ($num1 + $num2 + $num3) / 3;
 
             if ($average >= 80 && $average <= 100) {
+                echo "<h3>Your average is: $average</h3>";
                 echo "<h3>Your obtained grade is: A</h3>";
             } elseif ($average >= 70 && $average < 80) {
+                echo "<h3>Your average is: $average</h3>";
                 echo "<h3>Your obtained grade is: B</h3>";
             } elseif ($average >= 60 && $average < 70) {
+                echo "<h3>Your average is: $average</h3>";
                 echo "<h3>Your obtained grade is: C</h3>";
             } elseif ($average >= 50 && $average < 60) {
+                echo "<h3>Your average is: $average</h3>";
                 echo "<h3>Your obtained grade is: D</h3>";
             } else {
+                echo "<h3>Your average is: $average</h3>";
                 echo "<h3>Your obtained grade is: F</h3>";
             }
         }
