@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <h2>Grade Calculator</h2>
+    <h2>Grades Calculator</h2>
     <form method="post" action="">
 
         <label for="">Enter the marks</label>
