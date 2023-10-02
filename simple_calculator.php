@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 1</title>
-</head>
+    <title>Document</title>
 
-<body>
+    <style>
+        <?php include "styles.css" ?>
+    </style>
+</head>
+<body >
+    <div>
     <h2>Simple Calculator</h2>
-    <form method="post" action="">
+    <form method="post" action="" >
 
         <input type="number" name="number1" required>
         <br>
@@ -17,6 +20,7 @@
         <input type="number" name="number2" required>
         <br>
         <br>
+        
         <select name="operation" id="">
             <option value="addition">Addition</option>
             <option value="subtraction">Subtraction</option>
@@ -64,8 +68,6 @@
        }
         ?>
     </div>
+    </div>
 </body>
-
-
-
 </html>
